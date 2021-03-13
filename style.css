@@ -1,0 +1,80 @@
+body,h1,h2,h3,h4,p,ul,li,blockquote,address{
+    margin:0;
+    padding:0;
+    border:none;
+    font-size:100%;
+    font-style:normal;
+    font-weight:normal:0;
+    list-style:none;
+}
+
+
+
+#header{
+   position:relative;
+    width:760px;
+    height:180px;
+    margin-top:1em;
+    padding:10px 20px;
+    overflow:hidden;
+    background-image: url(0204.jpg);
+    background-repeat:no-repeat;
+}
+
+
+
+
+h2{
+    position:absoulte;
+    top:0px;
+    left:0;
+    width:500px;
+    height:100px;
+    font-size:2em;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 0.1px;
+    letter-spacing: 1px;
+    color:#082752;
+
+}
+
+div#container{
+    width:800px;
+    height:340px;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#imagePhoto 
+img{
+    position:absolute;
+    height:75px;
+    weight:75px;
+   
+
+}
+img#photo01{
+    left:10px;
+    top:230px;
+    height:150px;
+    weight:150px;
+}
+img#photo02{
+    left:310px;
+    top:230px;
+    height:150px;
+    weight:150px;
+}
+img#photo03{
+    left:60px;
+    top:400px;
+    height:150px;
+    weight:150px;
+}
+img#photo04{
+    left:360px;
+    top:400px;
+    height:150px;
+    weight:150px;
+}
