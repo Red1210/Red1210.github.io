@@ -39,11 +39,12 @@ h2{
 }
 
 div#container{
+    
     width:800px;
     height:340px;
     overflow:hidden;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:0px;
+    margin-right:760px;
 }
 
 #imagePhoto 
