@@ -41,6 +41,11 @@ header{
     margin-left: 1.75rem;
 }
 
+.container{
+    min-height: 100vh; /* カスタムプロパティ未対応ブラウザ用のフォールバック */
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
 .fujisan h2{
     font-family: "senobi-gothic", sans-serif;
     font-weight: 600;
@@ -127,6 +132,7 @@ header{
     section{
         height: 80vh;
         scroll-snap-align: start;
+        scroll-snap-type: y;
         background-size: cover;
         background-repeat: no-repeat;
         background-position:left center;
