@@ -1,11 +1,14 @@
 html {
     font-size: 100%;
+    height: -webkit-fill-available;
 }
 
 body {
     color: black;
     font-family: sans-serif;
     background: #f0f8ff;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
 }
 
 
@@ -229,7 +232,7 @@ header{
 @media (min-width: 600px) {
 
     section{
-        height: 110svh;
+        height: 100svh;
         scroll-snap-align: start;
         background-size: cover;
         background-repeat: no-repeat;
@@ -296,15 +299,15 @@ header{
     }
 
     .article01-image{
-        margin: 10svh 2svw 3.5svw 2svw;
+        margin: 7svh 2svw 3.5svw 2svw;
     }
 
     .article02-image{
-        margin: 17svh 2svw 3.5svw 2svw;
+        margin: 11svh 2svw 3.5svw 2svw;
     }
 
     .article03-image{
-        margin: 24svh 2svw 3.5svw 2svw;
+        margin: 15svh 2svw 3.5svw 2svw;
     }
 
     .article h3{
@@ -322,14 +325,3 @@ header{
     }
 
 }
-
-@supports (-webkit-touch-callout: none) {
-    html{
-      height: -webkit-fill-available;
-    }
-     
-      body {
-        min-height: 100vh;
-        height: -webkit-fill-available;
-      }
-    }
