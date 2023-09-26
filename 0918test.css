@@ -6,8 +6,6 @@ body {
     color: black;
     font-family: sans-serif;
     background: #f0f8ff;
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
 }
 
 
