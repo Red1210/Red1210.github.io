@@ -1,14 +1,11 @@
 html {
     font-size: 100%;
-    height: -webkit-fill-available;
 }
 
 body {
     color: black;
     font-family: sans-serif;
     background: #f0f8ff;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
 }
 
 
@@ -240,10 +237,10 @@ header{
     }
 
     .fujisan{
-        background-image: url('1.jpg'), linear-gradient(173deg, transparent 70%, #93c1e9 70%, transparent 73%), linear-gradient(193deg, transparent 70%, #93c1e9 70%, transparent 73%);
+        background-image: url('1.jpg'), linear-gradient(173deg, transparent 70%, #93c1e9 70%, transparent 73%), linear-gradient(203deg, transparent 70%, #93c1e9 70%, transparent 73%);
         background-repeat: no-repeat;
-        background-position: right top, center, bottom;
-        background-size: 70svw, 180svw, 380svw;
+        background-position: right top, bottom, bottom;
+        background-size: 60svw, 140svw, 250svw;
         padding: 3.5rem 1.5rem 12rem;
     }
 
