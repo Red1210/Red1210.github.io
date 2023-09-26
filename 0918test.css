@@ -62,7 +62,7 @@ header{
     font-family: "senobi-gothic", sans-serif;
     font-weight: 600;
     font-style: normal;
-    padding-left: 0.75lvh;
+    padding-left: 0.75svh;
     background-image: linear-gradient(transparent 30%, rgba(255,255,255,.5) 70%);
 }
 
@@ -76,14 +76,14 @@ header{
     font-family: "senobi-gothic", sans-serif;
     font-weight: 600;
     font-style: normal;
-    padding-left: 0.75lvh;
+    padding-left: 0.75svh;
 }
 
 .article h3{
     font-family: "senobi-gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-bottom: 0.75lvh;
+    padding-bottom: 0.75svh;
     background-image: linear-gradient(transparent 90%, rgba(255,255,255,.3) 10%);
     display: inline-block;
 }
@@ -125,7 +125,7 @@ header{
 @media (max-width: 600px) {
 
     section{
-        height: 80lvh;
+        height: 80svh;
         scroll-snap-align: start;
         scroll-snap-type: y;
         background-size: cover;
@@ -137,30 +137,30 @@ header{
         background-image: url('1.5.jpg'), linear-gradient(161deg, transparent 70%, #93c1e9 70%, transparent 73%), linear-gradient(205deg, transparent 70%, #93c1e9 70%, transparent 72%);
         background-repeat: no-repeat;
         background-position: right top, center, bottom;
-        background-size: 80lvw, 180lvw, 380lvw;
+        background-size: 80svw, 180svw, 380svw;
         padding: 1rem 1rem 15rem;
     }
 
     .fujisan h2{
-        font-size: 5lvw;
-        margin: 17lvw 0 7lvw;
+        font-size: 5svw;
+        margin: 17svw 0 7svw;
     }
 
     .fujisan h4{
-        font-size: 3lvw;
-        margin: 17lvw 0 12lvw;
+        font-size: 3svw;
+        margin: 17svw 0 12svw;
     }
 
     .about{
         background-image: linear-gradient(transparent 10%, #b0c4de 90%), linear-gradient(184deg, transparent 70%, #1f3f59 70%, transparent 73%), linear-gradient(145deg, transparent 70%, #305879 70%, transparent 73%);
         background-position: center, bottom, bottom;
-        background-size: auto, 1000lvw, 150lvw;
+        background-size: auto, 1000svw, 150svw;
     }
 
     .about h2{
         font-size: 1.5rem;
         text-align: center;
-        margin: 3lvw 1lvw 1lvw 1lvw;
+        margin: 3svw 1svw 1svw 1svw;
     }
 
     .person-image{
@@ -169,7 +169,7 @@ header{
     }
 
     .personal-image{
-        height: 20lvw;
+        height: 20svw;
         border-radius: 50% 50% 0 50%;
         margin: 1.5rem;
     }
@@ -177,7 +177,7 @@ header{
     .person-image p{
         text-align: center;
         font-size: 1rem;
-        margin: 2lvw 1lvw 1lvw 1lvw;
+        margin: 2svw 1svw 1svw 1svw;
     }
 
     .article{
@@ -187,27 +187,27 @@ header{
     .article h2{
         font-size: 1.5rem;
         text-align: center;
-        padding-top: 1lvw;
-        margin: 0 1lvw 1lvw 1lvw;
+        padding-top: 1svw;
+        margin: 0 1svw 1svw 1svw;
         background-image: linear-gradient(transparent 30%, rgba(255,255,255,.5) 70%);
     }
 
 
     .article img{
-        height: 15lvh;        
+        height: 15svh;        
         border-radius: 15%;
     }
 
     .article01-image{
-        margin: 6lvh 1lvw 3lvw 1lvw;
+        margin: 6svh 1svw 3svw 1svw;
     }
 
     .article02-image{
-        margin: 4lvh 1lvw 3lvw 1lvw;
+        margin: 4svh 1svw 3svw 1svw;
     }
 
     .article03-image{
-        margin: 4lvh 1lvw 3lvw 1lvw;
+        margin: 4svh 1svw 3svw 1svw;
     }
 
     .article h3{
@@ -229,7 +229,7 @@ header{
 @media (min-width: 600px) {
 
     section{
-        height: 110lvh;
+        height: 110svh;
         scroll-snap-align: start;
         background-size: cover;
         background-repeat: no-repeat;
@@ -240,28 +240,28 @@ header{
         background-image: url('1.jpg'), linear-gradient(173deg, transparent 70%, #93c1e9 70%, transparent 73%), linear-gradient(193deg, transparent 70%, #93c1e9 70%, transparent 73%);
         background-repeat: no-repeat;
         background-position: right top, center, bottom;
-        background-size: 70lvw, 180lvw, 380lvw;
+        background-size: 70svw, 180svw, 380svw;
         padding: 3.5rem 1.5rem 12rem;
     }
 
     .fujisan h2{
         font-size: 2rem;
-        margin: 3.5lvw 2.75lvw 5lvw;
+        margin: 3.5svw 2.75svw 5svw;
     }
     .fujisan h4{
         font-size: 1.25rem;
-        margin: 6.5lvw 2.75lvw 12lvw;
+        margin: 6.5svw 2.75svw 12svw;
     }
 
     .about{
         background-image: linear-gradient(transparent 10%, #b0c4de 90%), linear-gradient(182deg, transparent 70%, #173248 70%, transparent 73%), linear-gradient(160deg, transparent 70%, #173248 70%, transparent 73%);
         background-position: center, bottom, bottom;
-        background-size: auto, 1000lvw, 150lvw;
+        background-size: auto, 1000svw, 150svw;
     }
 
     .about h2{
         font-size: 3.5rem;
-        margin: 7lvw 1lvw 1dvw 30lvw;
+        margin: 7svw 1svw 1svw 30svw;
     }
 
     .person-image{
@@ -269,14 +269,14 @@ header{
     }
 
     .personal-image{
-        height: 20lvw;
+        height: 20svw;
         border-radius: 50% 50% 0 50%;
         margin: 2rem 1rem 5rem 3rem;
     }
 
     .person-image p{
         font-size: 1.5rem;
-        margin: 5lvw 1lvw 1lvw 1.5lvw;
+        margin: 5svw 1svw 1svw 1.5svw;
     }
 
     .article{
@@ -286,25 +286,25 @@ header{
     .article h2{
         text-align: center;
         font-size: 3.5rem;
-        margin: 0 1lvw 1lvw 30lvw;
+        margin: 0 1svw 1svw 30svw;
         background-image: linear-gradient(transparent 30%, rgba(255,255,255,.5) 70%);
     }
 
     .article img{
-        height: 20lvw;
+        height: 20svw;
         border-radius: 20%;
     }
 
     .article01-image{
-        margin: 10lvh 2lvw 3.5lvw 2lvw;
+        margin: 10svh 2svw 3.5svw 2svw;
     }
 
     .article02-image{
-        margin: 17lvh 2lvw 3.5lvw 2lvw;
+        margin: 17svh 2svw 3.5svw 2svw;
     }
 
     .article03-image{
-        margin: 24lvh 2lvw 3.5lvw 2lvw;
+        margin: 24svh 2svw 3.5svw 2svw;
     }
 
     .article h3{
