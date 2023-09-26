@@ -125,12 +125,12 @@ header{
 @media (max-width: 600px) {
 
     section{
-        height: 80svh;
+        height: 600px;
         scroll-snap-align: start;
         scroll-snap-type: y;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position:left center;
+        background-position: left center;
     }
 
     .fujisan{
@@ -194,20 +194,20 @@ header{
 
 
     .article img{
-        height: 15svh;        
+        height: 25svw;        
         border-radius: 15%;
     }
 
     .article01-image{
-        margin: 6svh 1svw 3svw 1svw;
+        margin: 10svw 1svw 3svw 1svw;
     }
 
     .article02-image{
-        margin: 4svh 1svw 3svw 1svw;
+        margin: 8svw 1svw 3svw 1svw;
     }
 
     .article03-image{
-        margin: 4svh 1svw 3svw 1svw;
+        margin: 8svw 1svw 3svw 1svw;
     }
 
     .article h3{
